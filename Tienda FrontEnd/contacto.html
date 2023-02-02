@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Home</a>
+        <a class="navegacion__enlace " href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="contacto.html">Contacto</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>React JS</h1>
+
+        <div class="camisa">
+
+            <div class="carrousel">
+                <div class="conteCarrousel">
+                    <div class="itemCarrousel" id="itemCarrousel-1">
+                        <div class="itemCarrouselTarjeta">
+                            <img src="img/11.jpg" alt="camisa">
+                        </div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-3">
+                                <img class="iconoslider" width="40px" height="40px" src="img/2izquierda.png" alt="icono izquierda">
+                            </a>
+                            <a href="#itemCarrousel-2">
+                                    <img class="iconoslider" width="40px" height="40px" src="img/1derecha.png" alt="icono derecha">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemCarrousel" id="itemCarrousel-2">
+                        <div class="itemCarrouselTarjeta">
+                            <img src="img/13.jpg" alt="camisa13">
+                        </div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-1">
+                                <img class="iconoslider" width="40px" height="40px" src="img/2izquierda.png" alt="icono izquierda">
+                            </a>
+                            <a href="#itemCarrousel-3">
+                                <img class="iconoslider" width="40px" height="40px" src="img/1derecha.png" alt="icono derecha">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemCarrousel" id="itemCarrousel-3">
+                        <div class="itemCarrouselTarjeta">
+                            <img src="img/14.jpg" alt="camisa14">
+                        </div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-2">
+                                    <img class="iconoslider" width="40px" height="40px" src="img/2izquierda.png" alt="icono izquierda">
+                            </a>
+                            <a href="#itemCarrousel-1">
+                                <img class="iconoslider" width="40px" height="40px" src="img/1derecha.png" alt="icono derecha">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="camisa__contenido">
+                <p>Maecenas consectetur ultricies mi vel venenatis. Curabitur risus tellus, congue non tellus at, semper dapibus turpis. Duis pellentesque, risus sit amet placerat porttitor, tortor augue volutpat ante, non dignissim odio ligula at arcu.</p>
+                <p class="producto__precio">Precio $25</p>
+
+                <form class="formulario">
+                    <input class="formulario__submit" type="submit" value="Numero Telefono">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022.</p>
+    </footer>
+    
+</body>
+</html>
